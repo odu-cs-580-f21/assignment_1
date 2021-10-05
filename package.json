@@ -1,0 +1,22 @@
+{
+	"name": "sokoban-react-typescript",
+	"version": "0.0.0",
+	"license": "MIT",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"dependencies": {
+		"p5": "^1.4.0"
+	},
+	"devDependencies": {
+		"eslint": "^5.16.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"@parcel/transformer-sass": "^2.0.0-rc.0",
+		"@types/p5": "^1.3.1",
+		"@typescript-eslint/parser": "^4.32.0",
+		"@typescript-eslint/eslint-plugin": "^4.32.0",
+		"parcel": "^2.0.0-rc.0",
+		"typescript": "^4.3.2"
+	}
+}

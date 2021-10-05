@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sokoban App</title>
+		<link rel="stylesheet" href="/src/style.sass" />
+	</head>
+	<body>
+		<div class="game">
+			<h2>Level <span id="level"></span></h2>
+			<p>So far, you have used <span id="moves">0</span> moves.</p>
+
+			<div id="sketch-holder"></div>
+		</div>
+		<div class="table">
+			<h2>Visited cells</h2>
+			<div id="visited"></div>
+		</div>
+		<script type="module" src="/src/index.ts"></script>
+		<script type="module" src="/src/bfs.ts"></script>
+	</body>
+</html>
